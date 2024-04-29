@@ -18,7 +18,7 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
 <!-- Head BEGIN -->
 <head>
   <meta charset="utf-8">
-  <title>Our Product | E-Commerce</title>
+  <title>Product List | Funfig Hobbies</title>
 
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -34,29 +34,32 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
   <meta property="og:image" content="-CUSTOMER VALUE-"><!-- link to image for socio -->
   <meta property="og:url" content="-CUSTOMER VALUE-">
 
-  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="shortcut icon" href="assets/corporate/img/logos/funfig_logo.png">
 
   <!-- Fonts START -->
-  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|PT+Sans+Narrow|Source+Sans+Pro:200,300,400,600,700,900&amp;subset=all" rel="stylesheet" type="text/css"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <!-- <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|PT+Sans+Narrow|Source+Sans+Pro:200,300,400,600,700,900&amp;subset=all" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900&amp;subset=all" rel="stylesheet" type="text/css">  -->
   <!-- Fonts END -->
 
   <!-- Global styles START -->          
-  <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <!-- <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
   <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Global styles END --> 
    
   <!-- Page level plugin styles START -->
+  <link href="assets/pages/css/animate.css" rel="stylesheet">
   <link href="assets/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet">
   <link href="assets/plugins/owl.carousel/assets/owl.carousel.css" rel="stylesheet">
-  <link href="assets/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css">
-  <link href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css"><!-- for slider-range -->
-  <link href="assets/plugins/rateit/src/rateit.css" rel="stylesheet" type="text/css">
   <!-- Page level plugin styles END -->
 
   <!-- Theme styles START -->
   <link href="assets/pages/css/components.css" rel="stylesheet">
-  <link href="assets/corporate/css/style.css" rel="stylesheet">
+  <link href="assets/pages/css/slider.css" rel="stylesheet">
   <link href="assets/pages/css/style-shop.css" rel="stylesheet" type="text/css">
+  <link href="assets/corporate/css/style.css" rel="stylesheet">
   <link href="assets/corporate/css/style-responsive.css" rel="stylesheet">
   <link href="assets/corporate/css/themes/red.css" rel="stylesheet" id="style-color">
   <link href="assets/corporate/css/custom.css" rel="stylesheet">
@@ -66,35 +69,10 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
 
 <!-- Body BEGIN -->
 <body class="ecommerce">
-    <!-- BEGIN TOP BAR -->
-    <div class="pre-header">
-        <div class="container">
-            <div class="row">
-                <!-- BEGIN TOP BAR LEFT PART -->
-                <div class="col-md-6 col-sm-6 additional-shop-info">
-                    <ul class="list-unstyled list-inline">
-                      <li><i class="fa fa-phone"></i><span>08812213123</span></li>
-                    </ul>
-                </div>
-                <!-- END TOP BAR LEFT PART -->
-                <!-- BEGIN TOP BAR MENU -->
-                <div class="col-md-6 col-sm-6 additional-nav">
-                    <ul class="list-unstyled list-inline pull-right">
-                        <li><a href="shop-wishlist.html">My Cart</a></li>
-                        <li><a href="shop-checkout.html">Checkout</a></li>
-                        <!-- <li><a href="page-login.html">Log In</a></li> -->
-                    </ul>
-                </div>
-                <!-- END TOP BAR MENU -->
-            </div>
-        </div>        
-    </div>
-    <!-- END TOP BAR -->
-
     <!-- BEGIN HEADER -->
     <div class="header">
       <div class="container">
-        <a class="site-logo" href="index.html"><img src="assets/corporate/img/logos/logo-corp-blue.png" alt="Metronic Shop UI"></a>
+        <a class="site-logo" href="shop-index.html"><img src="assets/corporate/img/logos/funfig_logo.png" width="100" alt="Funfig Hobbies"></a>
 
         <a href="javascript:void(0);" class="mobi-toggler"><i class="fa fa-bars"></i></a>
 
@@ -130,7 +108,7 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
         <div class="header-navigation">
           <ul>
             <li class="dropdown">
-              <a class="dropdown-toggle" href="index.html">
+              <a class="dropdown-toggle" href="shop-index.html">
                 Home 
               </a>
             </li>
@@ -141,9 +119,8 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
             </li>
             <!-- <li><a href="shop-item.html">Kids</a></li> -->
             <li class="dropdown dropdown100 nav-catalogue">
-              <a class="dropdown-toggle" href="shop-about.html">
-                Contact Us
-                
+              <a class="dropdown-toggle" href="shop-wishlist.html">
+                Shopping Cart
               </a>
             </li>
             <!-- <li class="dropdown">
@@ -153,7 +130,7 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
               </a>
                 
               <ul class="dropdown-menu">
-                <li class="active"><a href="index.html">Home Default</a></li>
+                <li class="active"><a href="shop-index.html">Home Default</a></li>
                 <li><a href="shop-index-header-fix.html">Home Header Fixed</a></li>
                 <li><a href="shop-index-light-footer.html">Home Light Footer</a></li>
                 <li><a href="shop-product-list.html">Product List</a></li>
@@ -207,16 +184,16 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
     <div class="main">
       <div class="container">
         <ul class="breadcrumb">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="shop-index.html">Home</a></li>
             <li><a href="">Store</a></li>
-            <li class="active">NENDOROID</li>
+            <li class="active">OUR PRODUCT</li>
         </ul>
         <!-- BEGIN SIDEBAR & CONTENT -->
         <div class="row margin-bottom-40">
           <!-- BEGIN SIDEBAR -->
           <div class="sidebar col-md-3 col-sm-5">
             <ul class="list-group margin-bottom-25 sidebar-menu">
-              <li class="list-group-item clearfix dropdown active"><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Nendoroid</a></li>
+              <li class="list-group-item clearfix"><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Nendoroid</a></li>
               <li class="list-group-item clearfix"><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Scaled Figure</a></li>
               <li class="list-group-item clearfix"><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Prize Figure</a></li>
               <li class="list-group-item clearfix"><a href="shop-product-list.html"><i class="fa fa-angle-right"></i> Pop Up Parade</a></li>
@@ -226,23 +203,25 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
             </ul>
 
             <div class="sidebar-filter margin-bottom-25">
-              <h2>Filter</h2>
-              <h3>Availability</h3>
+              <h2>Availability</h2>
               <div class="checkbox-list">
-                <label><input type="checkbox"> Not Available (3)</label>
-                <label><input type="checkbox"> In Stock (26)</label>
+                <label><input type="checkbox"> Ready Stock (3)</label>
+                <label><input type="checkbox"> Pre-Order (26)</label>
+                <label><input type="checkbox"> Late Pre-Order (12)</label>
+                <label><input type="checkbox"> Limited Offer (6)</label>
+                <label><input type="checkbox"> Limited BONUS (2)</label>
+                <label><input type="checkbox"> Back Order (10)</label>
               </div>
-
-              <h3>Price</h3>
+              <!-- <h3>Price</h3>
               <p>
                 <label for="amount">Range:</label>
                 <input type="text" id="amount" style="border:0; color:#f6931f; font-weight:bold;">
               </p>
-              <div id="slider-range"></div>
+              <div id="slider-range"></div> -->
             </div>
 
             <div class="sidebar-products clearfix">
-              <h2>Bestsellers</h2>
+              <h2>Hunter's Favorite</h2>
               <div class="item">
                 <a href="shop-item.html"><img src="assets/pages/img/action/ac1.jpg" alt="Avengers"></a>
                 <h3><a href="shop-item.html">Avengers</a></h3>
@@ -283,14 +262,12 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
                   <label class="control-label">Sort&nbsp;By:</label>
                   <select class="form-control input-sm">
                     <option value="#?sort=p.sort_order&amp;order=ASC" selected="selected">Default</option>
-                    <option value="#?sort=pd.name&amp;order=ASC">Name (A - Z)</option>
-                    <option value="#?sort=pd.name&amp;order=DESC">Name (Z - A)</option>
-                    <option value="#?sort=p.price&amp;order=ASC">Price (Low &gt; High)</option>
-                    <option value="#?sort=p.price&amp;order=DESC">Price (High &gt; Low)</option>
+                    <option value="#?sort=pd.name&amp;order=ASC">Newest Items</option>
+                    <option value="#?sort=pd.name&amp;order=DESC">Oldest Items</option>
+                    <option value="#?sort=p.price&amp;order=ASC">Highest Price</option>
+                    <option value="#?sort=p.price&amp;order=DESC">Lowest Price</option>
                     <option value="#?sort=rating&amp;order=DESC">Rating (Highest)</option>
-                    <option value="#?sort=rating&amp;order=ASC">Rating (Lowest)</option>
-                    <option value="#?sort=p.model&amp;order=ASC">Model (A - Z)</option>
-                    <option value="#?sort=p.model&amp;order=DESC">Model (Z - A)</option>
+                    <option value="#?sort=rating&amp;order=ASC">Most liked</option>
                   </select>
                 </div>
               </div>
@@ -301,15 +278,11 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
               <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="product-item">
                   <div class="pi-img-wrapper">
-                    <img src="assets/pages/img/action/ac1.jpg" class="img-responsive" alt="Avengers">
-                    <div>
-                      <a href="assets/pages/img/action/ac1.jpg" class="btn btn-default fancybox-button">Zoom</a>
-                      <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
-                    </div>
+                    <a href="shop-item.html"><img src="assets/pages/img/action/ac1.jpg" class="img-responsive" alt="Avengers"></a>
                   </div>
                   <h3><a href="shop-item.html">Avengers</a></h3>
                   <div class="pi-price">Rp 500.000</div>
-                  <a href="javascript:;" class="btn btn-default add2cart">Add to cart</a>
+                  <div class="btn btn-default add2cart">Pre Order</div>
                 </div>
               </div>
               <!-- PRODUCT ITEM END -->
@@ -317,15 +290,11 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
               <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="product-item">
                   <div class="pi-img-wrapper">
-                    <img src="assets/pages/img/action/ac1.jpg" class="img-responsive" alt="Avengers">
-                    <div>
-                      <a href="assets/pages/img/action/ac1.jpg" class="btn btn-default fancybox-button">Zoom</a>
-                      <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
-                    </div>
+                    <a href="shop-item.html"><img src="assets/pages/img/action/ac1.jpg" class="img-responsive" alt="Avengers"></a>
                   </div>
                   <h3><a href="shop-item.html">Avengers</a></h3>
                   <div class="pi-price">Rp 500.000</div>
-                  <a href="javascript:;" class="btn btn-default add2cart">Add to cart</a>
+                  <div class="btn btn-default add2cart">Avaibility</div>
                 </div>
               </div>
               <!-- PRODUCT ITEM END -->
@@ -333,15 +302,11 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
               <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="product-item">
                   <div class="pi-img-wrapper">
-                    <img src="assets/pages/img/action/ac1.jpg" class="img-responsive" alt="Avengers">
-                    <div>
-                      <a href="assets/pages/img/action/ac1.jpg" class="btn btn-default fancybox-button">Zoom</a>
-                      <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
-                    </div>
+                    <a href="shop-item.html"><img src="assets/pages/img/action/ac1.jpg" class="img-responsive" alt="Avengers"></a>
                   </div>
                   <h3><a href="shop-item.html">Avengers 2</a></h3>
                   <div class="pi-price">Rp 500.000</div>
-                  <a href="javascript:;" class="btn btn-default add2cart">Add to cart</a>
+                  <div class="btn btn-default add2cart">Avaibility</div>
                 </div>
               </div>              
               <!-- PRODUCT ITEM END -->
@@ -351,15 +316,11 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
               <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="product-item">
                   <div class="pi-img-wrapper">
-                    <img src="assets/pages/img/action/ac1.jpg" class="img-responsive" alt="Avengers">
-                    <div>
-                        <a href="assets/pages/img/action/ac1.jpg" class="btn btn-default fancybox-button">Zoom</a>
-                        <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
-                    </div>
+                    <a href="shop-item.html"><img src="assets/pages/img/action/ac1.jpg" class="img-responsive" alt="Avengers"></a>
                   </div>
                   <h3><a href="shop-item.html">Avengers Avengers</a></h3>
                   <div class="pi-price">Rp 500.000</div>
-                  <a href="javascript:;" class="btn btn-default add2cart">Add to cart</a>
+                  <div class="btn btn-default add2cart">Avaibility</div>
                 </div>
               </div>
               <!-- PRODUCT ITEM END -->
@@ -367,15 +328,11 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
               <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="product-item">
                   <div class="pi-img-wrapper">
-                    <img src="assets/pages/img/action/ac1.jpg" class="img-responsive" alt="Avengers">
-                    <div>
-                        <a href="assets/pages/img/action/ac1.jpg" class="btn btn-default fancybox-button">Zoom</a>
-                        <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
-                    </div>
+                    <a href="shop-item.html"><img src="assets/pages/img/action/ac1.jpg" class="img-responsive" alt="Avengers"></a>
                   </div>
                   <h3><a href="shop-item.html">Avengers</a></h3>
                   <div class="pi-price">Rp 500.000</div>
-                  <a href="javascript:;" class="btn btn-default add2cart">Add to cart</a>
+                  <div class="btn btn-default add2cart">Avaibility</div>
                   <div class="sticker sticker-new"></div>
                 </div>
               </div>
@@ -384,15 +341,11 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
               <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="product-item">
                   <div class="pi-img-wrapper">
-                    <img src="assets/pages/img/action/ac1.jpg" class="img-responsive" alt="Avengers">
-                    <div>
-                        <a href="assets/pages/img/action/ac1.jpg" class="btn btn-default fancybox-button">Zoom</a>
-                        <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
-                    </div>
+                    <a href="shop-item.html"><img src="assets/pages/img/action/ac1.jpg" class="img-responsive" alt="Avengers"></a>
                   </div>
                   <h3><a href="shop-item.html">Avengers</a></h3>
                   <div class="pi-price">Rp 500.000</div>
-                  <a href="javascript:;" class="btn btn-default add2cart">Add to cart</a>
+                  <div class="btn btn-default add2cart">Avaibility</div>
                 </div>
               </div>              
               <!-- PRODUCT ITEM END -->
@@ -402,15 +355,11 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
               <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="product-item">
                   <div class="pi-img-wrapper">
-                    <img src="assets/pages/img/action/ac1.jpg" class="img-responsive" alt="Avengers">
-                    <div>
-                        <a href="assets/pages/img/action/ac1.jpg" class="btn btn-default fancybox-button">Zoom</a>
-                        <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
-                    </div>
+                    <a href="shop-item.html"><img src="assets/pages/img/action/ac1.jpg" class="img-responsive" alt="Avengers"></a>
                   </div>
                   <h3><a href="shop-item.html">Avengers</a></h3>
                   <div class="pi-price">Rp 500.000</div>
-                  <a href="javascript:;" class="btn btn-default add2cart">Add to cart</a>
+                  <div class="btn btn-default add2cart">Avaibility</div>
                 </div>
               </div>
               <!-- PRODUCT ITEM END -->
@@ -418,15 +367,11 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
               <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="product-item">
                   <div class="pi-img-wrapper">
-                    <img src="assets/pages/img/action/ac1.jpg" class="img-responsive" alt="Avengers">
-                    <div>
-                        <a href="assets/pages/img/action/ac1.jpg" class="btn btn-default fancybox-button">Zoom</a>
-                        <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
-                    </div>
+                    <a href="shop-item.html"><img src="assets/pages/img/action/ac1.jpg" class="img-responsive" alt="Avengers"></a>
                   </div>
                   <h3><a href="shop-item.html">Avengers</a></h3>
                   <div class="pi-price">Rp 500.000</div>
-                  <a href="javascript:;" class="btn btn-default add2cart">Add to cart</a>
+                  <div class="btn btn-default add2cart">Avaibility</div>
                 </div>
               </div>
               <!-- PRODUCT ITEM END -->
@@ -434,15 +379,11 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
               <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="product-item">
                   <div class="pi-img-wrapper">
-                    <img src="assets/pages/img/action/ac1.jpg" class="img-responsive" alt="Avengers">
-                    <div>
-                        <a href="assets/pages/img/action/ac1.jpg" class="btn btn-default fancybox-button">Zoom</a>
-                        <a href="#product-pop-up" class="btn btn-default fancybox-fast-view">View</a>
-                    </div>
+                    <a href="shop-item.html"><img src="assets/pages/img/action/ac1.jpg" class="img-responsive" alt="Avengers"></a>
                   </div>
                   <h3><a href="shop-item.html">Avengers</a></h3>
                   <div class="pi-price">Rp 500.000</div>
-                  <a href="javascript:;" class="btn btn-default add2cart">Add to cart</a>
+                  <div class="btn btn-default add2cart">Avaibility</div>
                   <div class="sticker sticker-sale"></div>
                 </div>
               </div>
@@ -477,60 +418,34 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
       <div class="container">
         <div class="row">
           <!-- BEGIN BOTTOM ABOUT BLOCK -->
-          <div class="col-md-3 col-sm-6 pre-footer-col">
-            <h2>About us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam sit nonummy nibh euismod tincidunt ut laoreet dolore magna aliquarm erat sit volutpat. Nostrud exerci tation ullamcorper suscipit lobortis nisl aliquip  commodo consequat. </p>
-            <p>Duis autem vel eum iriure dolor vulputate velit esse molestie at dolore.</p>
+          <div class="col-md-8 col-sm-6 pre-footer-col">
+            <h1 class="display-2 fw-bold"><strong>Got a question? We've got your back!</strong></h1>
+            <h5 class="display-4">Just drop us a line anytime you need a hand!</h5>
           </div>
           <!-- END BOTTOM ABOUT BLOCK -->
-          <!-- BEGIN BOTTOM INFO BLOCK -->
-          <div class="col-md-3 col-sm-6 pre-footer-col">
-            <h2>Information</h2>
-            <ul class="list-unstyled">
-              <li><i class="fa fa-angle-right"></i> <a href="javascript:;">Delivery Information</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="javascript:;">Customer Service</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="javascript:;">Order Tracking</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="javascript:;">Shipping &amp; Returns</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="contacts.html">Contact Us</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="javascript:;">Careers</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="javascript:;">Payment Methods</a></li>
-            </ul>
-          </div>
-          <!-- END INFO BLOCK -->
-
-          <!-- BEGIN TWITTER BLOCK --> 
-          <div class="col-md-3 col-sm-6 pre-footer-col">
-            <h2 class="margin-bottom-0">Latest Tweets</h2>
-            <a class="twitter-timeline" href="https://twitter.com/twitterapi" data-tweet-limit="2" data-theme="dark" data-link-color="#57C8EB" data-widget-id="455411516829736961" data-chrome="noheader nofooter noscrollbar noborders transparent">Loading tweets by @keenthemes...</a>      
-          </div>
-          <!-- END TWITTER BLOCK -->
 
           <!-- BEGIN BOTTOM CONTACTS -->
-          <div class="col-md-3 col-sm-6 pre-footer-col">
-            <h2>Our Contacts</h2>
-            <address class="margin-bottom-40">
-              35, Lorem Lis Street, Jakarta<br>
-              Jakarta, Indonesia<br>
-              Phone: 021-1231231<br>
-              Email: <a href="mailto:info@metronic.com">info@metronic.com</a><br>
-            </address>
+          <div class="col-md-4 col-sm-6 pre-footer-col">
+            <h2 class="fw-bold margin-bottom-20"><strong>Our Contacts</strong></h2>
+            <p><i class="fa-brands fa-whatsapp fa-2xl"></i> 0819 0888 8515</p>
+            <a href="https://www.instagram.com/funfig.hobbies/" target="_blank"><i class="fa fa-instagram fa-2xl"></i> @funfig.hobbies</a>
           </div>
           <!-- END BOTTOM CONTACTS -->
         </div>
-        <hr>
-        <div class="row">
+        <!-- <div class="row"> -->
           <!-- BEGIN SOCIAL ICONS -->
-          <div class="col-md-6 col-sm-6">
+          <!-- <div class="col-md-6 col-sm-6">
             <ul class="social-icons">
               <li><a class="instagram" data-original-title="instagram" href="javascript:;"></a></li>
               <li><a class="facebook" data-original-title="facebook" href="javascript:;"></a></li>
               <li><a class="twitter" data-original-title="twitter" href="javascript:;"></a></li>
               <li><a class="youtube" data-original-title="youtube" href="javascript:;"></a></li>
             </ul>
-          </div>
+          </div> -->
           <!-- END SOCIAL ICONS -->
+
           <!-- BEGIN NEWLETTER -->
-          <div class="col-md-6 col-sm-6">
+          <!-- <div class="col-md-6 col-sm-6">
             <div class="pre-footer-subscribe-box pull-right">
               <ul class="list-unstyled list-inline pull-right">
                 <li><img src="assets/corporate/img/payments/bca.png" width="100" alt="We accept Western Union" title="We accept Western Union"></li>
@@ -539,9 +454,9 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
                 <li><img src="assets/corporate/img/payments/MasterCard.jpg" alt="We accept MasterCard" title="We accept MasterCard"></li>
               </ul>
             </div> 
-          </div>
+          </div> -->
           <!-- END NEWLETTER -->
-        </div>
+        <!-- </div> -->
       </div>
     </div>
     <!-- END PRE-FOOTER -->
@@ -549,13 +464,9 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
     <!-- BEGIN FOOTER -->
     <div class="footer">
       <div class="container">
+        <hr>
         <div class="row justify-content-center">
-          <!-- BEGIN COPYRIGHT -->
-          <div class="fw-bold padding-top-10 text-center">
-            2024 © Toko Xyz. ALL Rights Reserved. 
-          </div>
-          <!-- END COPYRIGHT -->
-          <!-- BEGIN PAYMENTS -->
+          <p class="text-center">2024 © FUNFIG Hobbies. All Rights Reserved.</p> 
         </div>
       </div>
     </div>
@@ -570,17 +481,17 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
               <img src="assets/pages/img/action/ac1.jpg" alt="Cool green dress with red bell" class="img-responsive">
             </div>
             <div class="product-other-images">
-              <a href="javascript:;" class="active"><img alt="Avengers" src="assets/pages/img/action/ac1.jpg"></a>
-              <a href="javascript:;"><img alt="Avengers" src="assets/pages/img/action/ac1.jpg"></a>
-              <a href="javascript:;"><img alt="Avengers" src="assets/pages/img/action/ac1.jpg"></a>
+              <a href="javascript:;" class="active"><img alt="Avengers" src="assets/pages/img/products/model3.jpg"></a>
+              <a href="javascript:;"><img alt="Avengers" src="assets/pages/img/action/ac2.jpg"></a>
+              <a href="javascript:;"><img alt="Avengers" src="assets/pages/img/action/ac3.jpg"></a>
             </div>
           </div>
           <div class="col-md-6 col-sm-6 col-xs-9">
-            <h1>Avengers</h1>
+            <h2>Avengers</h2>
             <div class="price-availability-block clearfix">
               <div class="price">
-                <strong><span>Rp</span>500.000</strong>
-                <em>Rp<span>600.000</span></em>
+                <strong><span>Rp </span>500.000</strong>
+                <em>Rp <span>600.000</span></em>
               </div>
               <div class="availability">
                 Availability: <strong>In Stock</strong>
@@ -605,15 +516,16 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
     <!-- END fast view of a product -->
 
     <!-- Load javascripts at bottom, this will reduce page load time -->
-    <!-- BEGIN CORE PLUGINS(REQUIRED FOR ALL PAGES) -->
+    <!-- BEGIN CORE PLUGINS (REQUIRED FOR ALL PAGES) -->
     <!--[if lt IE 9]>
     <script src="assets/plugins/respond.min.js"></script>  
-    <![endif]-->  
+    <![endif]-->
     <script src="assets/plugins/jquery.min.js" type="text/javascript"></script>
     <script src="assets/plugins/jquery-migrate.min.js" type="text/javascript"></script>
     <script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>      
     <script src="assets/corporate/scripts/back-to-top.js" type="text/javascript"></script>
     <script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="https://kit.fontawesome.com/15f02c2fa0.js" crossorigin="anonymous"></script>
     <!-- END CORE PLUGINS -->
 
     <!-- BEGIN PAGE LEVEL JAVASCRIPTS (REQUIRED ONLY FOR CURRENT PAGE) -->
@@ -621,20 +533,16 @@ Purchase Premium Metronic Admin Theme: http://themeforest.net/item/metronic-resp
     <script src="assets/plugins/owl.carousel/owl.carousel.min.js" type="text/javascript"></script><!-- slider for products -->
     <script src='assets/plugins/zoom/jquery.zoom.min.js' type="text/javascript"></script><!-- product zoom -->
     <script src="assets/plugins/bootstrap-touchspin/bootstrap.touchspin.js" type="text/javascript"></script><!-- Quantity -->
-    <script src="assets/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
-    <script src="assets/plugins/rateit/src/jquery.rateit.js" type="text/javascript"></script>
-    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js" type="text/javascript"></script><!-- for slider-range -->
 
     <script src="assets/corporate/scripts/layout.js" type="text/javascript"></script>
+    <script src="assets/pages/scripts/bs-carousel.js" type="text/javascript"></script>
     <script type="text/javascript">
         jQuery(document).ready(function() {
             Layout.init();    
             Layout.initOWL();
-            Layout.initTwitter();
             Layout.initImageZoom();
             Layout.initTouchspin();
-            Layout.initUniform();
-            Layout.initSliderRange();
+            Layout.initTwitter();
         });
     </script>
     <!-- END PAGE LEVEL JAVASCRIPTS -->

@@ -1,8 +1,8 @@
 body.ecommerce {
 	background: #f9f9f9;
 }
-.ecommerce h1, .ecommerce h2, .ecommerce h3, .ecommerce h4, .ecommerce h5, .ecommerce h6 {
-	font-family: "PT Sans Narrow", sans-serif;
+.ecommerce h1, .ecommerce h2, .ecommerce h3, .ecommerce h4 {
+	font-family: "Rubik", sans-serif;
 	margin: 0 0 10px;
 	text-transform: uppercase;
 }
@@ -29,7 +29,7 @@ body.ecommerce {
 }
 .ecommerce .content-page h5, 
 .ecommerce .content-page h6 {
-	font: 700 15px "Open Sans", Arial, sans-serif;
+	font: 700 15px "Rubik", sans-serif;
 	margin-bottom: 2px;
 }
 
@@ -40,8 +40,8 @@ Header and header elements
 	position: inherit;
 }
 .ecommerce .site-logo {
-	padding-top: 28px;
-	padding-bottom: 27px;
+	padding-top: 12px;
+	padding-bottom: 12px;
 }
 .ecommerce .reduce-header .site-logo {
 	padding-top: 16px;
@@ -49,7 +49,7 @@ Header and header elements
 }
 
 .ecommerce .header-navigation li.menu-search {
-	top: 31px;
+	top: 15px;
 }
 .ecommerce .header-navigation li.menu-search i {
 	color: #8a949e;
@@ -57,13 +57,13 @@ Header and header elements
 
 /* Navigation */
 .ecommerce .header-navigation {
-	font: 19px "PT Sans Narrow", sans-serif;
+	font: 14px "Rubik", sans-serif;
 	letter-spacing: 1px;
 	margin: 0;
 }
 .ecommerce .header-navigation > ul > li > a {
 	color: #767f88;
-	padding: 34px 12px 32px;
+	padding: 20px 12px 20px;
 }
 .ecommerce .header-navigation ul > li.active > a,
 .ecommerce .header-navigation ul > li > a:hover,
@@ -131,12 +131,12 @@ Header and header elements
 /* Top cart block */
 .header .top-cart-block {
 	float: right;
-	margin-top: 30px;
+	margin-top: 12px;
 	position: relative;
-	font: 400 13px 'Open Sans', Arial, sans-serif;
+	font: 400 13px "Rubik", sans-serif;
 }
 .ecommerce .header .mobi-toggler {
-	margin-top: 30px;
+	margin-top: 12px;
 }
 .ecommerce .reduce-header .mobi-toggler,
 .reduce-header .top-cart-block {
@@ -319,7 +319,7 @@ Header and header elements
 /* breadcrumb */
 .ecommerce .breadcrumb {
 	text-transform: uppercase;
-	font: 13px "PT Sans Narrow", sans-serif;
+	font: 13px "Rubik", sans-serif;
 }
 
 /* Catalogue styles */
@@ -366,6 +366,11 @@ Header and header elements
 }
 .pi-img-wrapper {
 	position: relative;
+	display: flex; /* Menggunakan flexbox */
+	align-items: center; /* Mengatur gambar agar sejajar */
+	justify-content: center; /* Mengatur gambar agar sejajar */
+	height: 200px; /* Tinggi card */
+	overflow: hidden;
 }
 .pi-img-wrapper div {
 	background: rgba(0,0,0,0.3);
@@ -396,7 +401,7 @@ Header and header elements
 }
 
 .product-item h3 {
-	font: 300 14px 'Open Sans', sans-serif;
+	font: 300 14px "Rubik", sans-serif;
 	padding-top: 10px;
 	padding-bottom: 4px;
 }
@@ -408,7 +413,7 @@ Header and header elements
 }
 .pi-price {
 	color: #e84d1c;
-	font: 18px 'PT Sans Narrow', sans-serif;
+	font: 18px "Rubik", sans-serif;
 	float: left;
 	padding-top: 1px;
 }
@@ -439,11 +444,11 @@ Header and header elements
 .goods-data table,
 .checkout-page table {
 	width: 100%;
-	font: 300 13px 'Open Sans', sans-serif;
+	font: 300 13px "Rubik", sans-serif;
 }
 .goods-data th,
 .checkout-page th {
-	font: 16px "PT Sans Narrow", sans-serif;
+	font: 16px "Rubik", sans-serif;
 	text-transform: uppercase;
 	border-bottom: solid 1px #ecebeb;
 	padding-bottom: 8px;
@@ -466,7 +471,7 @@ Header and header elements
 .goods-page-total,
 .checkout-price,
 .checkout-total {
-	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: "Rubik", sans-serif;
 }
 .goods-page-price strong, 
 .goods-page-total strong,
@@ -484,7 +489,7 @@ Header and header elements
 }
 .goods-data h3,
 .checkout-page .checkout-description h3 {
-	font: 300 14px 'Open Sans', sans-serif;
+	font: 300 14px "Rubik", sans-serif;
 	text-transform: inherit;
 	padding: 0;
 	margin: 0 0 5px;
@@ -551,7 +556,7 @@ Header and header elements
 }
 .shopping-total em,
 .checkout-total-block em {
-	font: 18px 'PT Sans Narrow', sans-serif;
+	font: 18px "Rubik", sans-serif;
 	float: left;
 	text-transform: uppercase;
 	position: relative;
@@ -560,7 +565,7 @@ Header and header elements
 .shopping-total strong,
 .checkout-total-block strong {
 	color: #e84d1c;
-	font: 21px 'PT Sans Narrow', sans-serif;
+	font: 21px "Rubik", sans-serif;
 	font-weight: normal;
 	float: right;
 }
@@ -581,7 +586,7 @@ Header and header elements
 .checkout-page h2 {
 	background: #a7b0b8;
 	color: #fff;
-	font: 17px 'PT Sans Narrow', sans-serif;
+	font: 17px "Rubik", sans-serif;
 	margin: 0 0 15px;
 }
 .checkout-page h2 a {
@@ -607,7 +612,7 @@ Header and header elements
 	color: #E02222;
 }
 .checkout-page h3 {
-	font: 23px 'PT Sans Narrow', sans-serif;
+	font: 23px "Rubik", sans-serif;
 	color: #3e4d5c;
 	padding-top: 10px;
 }
@@ -783,7 +788,7 @@ div.radio.disabled span.checked, div.radio.disabled.active span.checked {
 }
 
 .ecommerce .sidebar {
-	font: 15px 'PT Sans Narrow', sans-serif;
+	font: 15px "Rubik", sans-serif;
 	color: #3E4D5C;
 	text-transform: uppercase;
 }
@@ -802,13 +807,13 @@ div.radio.disabled span.checked, div.radio.disabled.active span.checked {
 	margin: 0;
 }
 .sidebar-filter h3 {
-	font: 600 14px 'Open Sans', sans-serif;
+	font: 600 14px "Rubik", sans-serif;
 	/*text-transform: none;*/
 	padding-top: 10px;
 }
 .sidebar-filter label {
 	text-transform: none;
-	font: 400 13px 'Open Sans', sans-serif;
+	font: 400 13px "Rubik", sans-serif;
 }
 .sidebar-filter #amount {
 	font-weight: normal !important;
@@ -865,7 +870,7 @@ div.radio.disabled span.checked, div.radio.disabled.active span.checked {
 	float: left;
 }
 .sidebar-products h3 {
-	font: 300 13px 'Open Sans', sans-serif;
+	font: 300 13px "Rubik", sans-serif;
 	/*text-transform: none;*/
 	margin-left: 80px;
 	margin-bottom: 2px;
@@ -873,7 +878,7 @@ div.radio.disabled span.checked, div.radio.disabled.active span.checked {
 .sidebar-products .price {
 	margin-left: 80px;
     color: #E84D1C;
-    font: 16px 'PT Sans Narrow', sans-serif;
+    font: 16px "Rubik", sans-serif;
 }
 
 /* BEGIN product page */
@@ -912,7 +917,7 @@ div.radio.disabled span.checked, div.radio.disabled.active span.checked {
 }
 .price-availability-block .price {
 	float: left;
-	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: "Rubik", sans-serif;
 }
 .price-availability-block .price strong {
 	color: #e84d1c;
@@ -960,7 +965,7 @@ div.radio.disabled span.checked, div.radio.disabled.active span.checked {
 	font-weight: normal;
 	text-transform: uppercase;
 	color: #8e9ca8;
-	font-family: "PT Sans Narrow", sans-serif;
+	font-family: "Rubik", sans-serif;
 	float: left;
 	margin-right: 10px;
 	padding-top: 2px;
@@ -995,7 +1000,7 @@ table .product-quantity .input-group {
 .product-quantity input.form-control {
 	border: none;
 	background: #edeff1 !important;
-	font: 300 23px 'Open Sans', sans-serif;;
+	font: 300 23px "Rubik", sans-serif;;
 	color: #647484;
 	height: 38px;
 	width: 50px;
@@ -1038,7 +1043,7 @@ table .product-quantity .input-group {
 
 .product-page .review {
 	color: #6e7a85;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Rubik", sans-serif;
 	border-bottom: 1px solid #f4f4f4;
 	padding-bottom: 18px;
 	margin-bottom: 20px;
@@ -1086,7 +1091,7 @@ table .product-quantity .input-group {
 
 .ecommerce .nav-tabs {
 	text-transform: uppercase;
-	font: 16px/1 "PT Sans Narrow", sans-serif;	
+	font: 16px/1 "Rubik", sans-serif;	
 }
 .ecommerce .nav-tabs > li > a, .ecommerce .nav-tabs > li > a:hover, .ecommerce .nav-tabs > li > a:focus {
 	padding: 5px 15px 3px;
@@ -1173,7 +1178,7 @@ table .product-quantity .input-group {
 	text-transform: uppercase;
 	font-size: 14px;
 	color: #8e9ca8;
-	font-family: "PT Sans Narrow", sans-serif;
+	font-family: "Rubik", sans-serif;
 	float: left;
 	margin-right: 10px;
 	position: relative;
@@ -1194,7 +1199,7 @@ table .product-quantity .input-group {
 }
 
 .content-form-page legend {
-	font: 18px 'PT Sans Narrow', sans-serif;
+	font: 18px "Rubik", sans-serif;
 	text-transform: uppercase;
 	margin-bottom: 14px;
 }
